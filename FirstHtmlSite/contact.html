@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <nav >
@@ -15,8 +16,7 @@
         <li>email: skjfbsjf</li>
         <li>gatan gatan </li>
     </ul>
-<hr size="3" noshade="">
-
+<hr >
     <form method="post" >
         
         <label for=""> Your name</label>
@@ -26,8 +26,18 @@
         <label for="">sign up?</label>
         <input type="checkbox" name="" id="">
         <br/>
-
         <input type="submit">
     </form>
+    <hr >
+
+    <fieldset>
+        <legend>How did you find me?</legend>
+        <input list="findme" type="text">
+        <datalist id="findme">
+            <option value="facebook adds">
+            <option value="Recomendation by a friend">
+            <option value="Add on youtube">
+        </datalist>
+    </fieldset>
 </body>
 </html>

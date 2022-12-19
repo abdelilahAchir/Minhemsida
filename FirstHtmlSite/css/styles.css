@@ -1,0 +1,37 @@
+
+/* Element selectors*/
+
+body {
+    background-color: aqua;
+  }
+
+  hr {
+    border-style: dotted none none;
+    height: 10px;
+    width: 7%;
+    border-width: 5px;
+    border-color: rgb(33, 203, 24);
+  }
+
+  h1{
+    color: rgb(222, 25, 25);
+    background-color: orange;
+  }
+
+  h2{
+    color: rgb(143, 86, 16);
+  }
+
+
+  /* Class selectors*/
+
+.subtitles{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .maintitle{
+    font-style: italic;
+  }
+
+  /* ID selector*/
+
+  
